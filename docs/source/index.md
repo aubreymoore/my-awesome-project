@@ -8,10 +8,9 @@ This project uses
 
 ```{toctree}
 ---
-caption: My toctree
+caption: Contents
 maxdepth: 2
 ---
-test
 project_setup
 
 autoapi/index
