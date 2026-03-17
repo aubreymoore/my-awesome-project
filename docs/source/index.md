@@ -1,7 +1,5 @@
 # Welcome to My Awesome Project
 
-## Introduction
-
 This project uses 
 - `uv` for lightning-fast environment management
 - `MyST Markdown` for writing nicely formatted guides.

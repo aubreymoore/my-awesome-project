@@ -1,7 +1,7 @@
 ---
-title: Project Setup
+title: Project Setup Guide
 author: "Aubrey Moore"
-date: "2026-03-16"
+date: "2026-03-17"
 # geometry: "a4paper, margin=1.5cm"
 # documentclass: article
 # fontsize: 12pt
@@ -10,9 +10,14 @@ date: "2026-03-16"
 exports: ["pdf"]
 ---
 
-# Project Setup: Sphinx, MyST, AutoAPI, and uv
+# Project Setup Guide
 
-This document, created with [help from Gemini](https://gemini.google.com/share/7b87f0c8737a), provides a comprehensive guide to setting up a modern Python project using `uv` for package management and `Sphinx` with `MyST-Parser` for Markdown-based documentation.
+This document, created with [help from Gemini](https://gemini.google.com/share/7b87f0c8737a), provides a comprehensive guide to setting up a modern Python project which uses
+
+- `uv` for lightning-fast environment management
+- `MyST Markdown` for writing nicely formatted guides
+- `Sphinx` for documenting `Python` code
+- `GitHub` and `Read the Docs` for publishing
 
 ---
 
