@@ -1,5 +1,7 @@
 # Welcome to My Awesome Project
 
+[View on GitHub](https://github.com/aubreymoore/my-awsome-project)
+
 This project documents how to set up a `Python` which uses 
 
 - `uv` for lightning-fast environment management
