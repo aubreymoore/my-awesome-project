@@ -130,7 +130,11 @@ Create a `.readthedocs.yaml` file in the **root directory**. This script tells R
 
 
 3. **Local Testing:**
+
 Before pushing changes, you can verify the build locally using:
+
 ```bash
 uv run sphinx-build -b html docs/source docs/build
 ```
+
+Then point a web browser at `docs/build/index.html`
