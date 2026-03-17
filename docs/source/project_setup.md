@@ -111,7 +111,7 @@ Create `docs/source/index.md` using MyST syntax:
 ```{literalinclude} index.md
 ```
 
-## 5. Read the Docs Configuration
+## 5. Read-the-Docs Configuration
 
 Create a `.readthedocs.yaml` file in the **root directory**. This script tells Read the Docs how to install `uv` and build your documentation.
 
