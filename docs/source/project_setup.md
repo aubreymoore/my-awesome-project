@@ -341,55 +341,11 @@ Inside `docs/source/conf.py`, configure the extensions to support Markdown and a
 ```{literalinclude} conf.py
 ```
 
-
-asasas
-
-
-
-```python
-import os
-import sys
-from datetime import date
-
-# -- Project information -----------------------------------------------------
-project = 'My Awesome Project'
-copyright = f'{date.today().year}, Your Name'
-author = 'Your Name'
-
-# -- General configuration ---------------------------------------------------
-extensions = [
-    'myst_parser',
-    'sphinx_autoapi.extension',
-    'sphinx.ext.napoleon',    # Support for Google/NumPy docstrings
-    'sphinx.ext.viewcode',   # Links to source code
-]
-
-# AutoAPI settings: point to your src directory
-autoapi_dirs = ['../../src']
-autoapi_type = 'python'
-
-# -- Options for HTML output -------------------------------------------------
-html_theme = 'sphinx_rtd_theme'
-
-```
-
 ### The `index.md` File
 
 Create `docs/source/index.md` using MyST syntax:
 
-```markdown
-# Welcome to My Awesome Project
-
-## Introduction
-
-This project uses `uv` for lightning-fast environment management and `MyST` for Markdown docs.
----
-
-.. toctree ::
-    :maxdepth: 2
-    :caption: Contents:
-
-    autoapi/index
+```{literalinclude} index.md
 ```
 
 ## 5. Read the Docs Configuration
