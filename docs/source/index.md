@@ -7,8 +7,6 @@ This project documents how to set up a `Python` which uses
 - `Sphinx` for documenting `Python` code.
 - `GitHub` and `Read the Docs` for publishing.
 
-This is a test.
-
 ```{toctree}
 ---
 caption: Contents
