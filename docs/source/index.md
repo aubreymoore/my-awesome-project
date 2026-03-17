@@ -1,6 +1,7 @@
 # Welcome to My Awesome Project
 
-This project uses 
+This project documents how to set up a `Python` which uses 
+
 - `uv` for lightning-fast environment management
 - `MyST Markdown` for writing nicely formatted guides.
 - `Sphinx` for documenting `Python` code.
