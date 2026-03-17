@@ -352,6 +352,12 @@ Create `docs/source/index.md` using MyST syntax:
 
 Create a `.readthedocs.yaml` file in the **root directory**. This script tells Read the Docs how to install `uv` and build your documentation.
 
+```{literalinclude} ../../.readthedocs.yaml
+```
+
+Delete below.
+
+
 ```yaml
 version: 2
 
