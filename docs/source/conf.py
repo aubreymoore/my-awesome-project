@@ -34,12 +34,3 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-
-html_context = {
-    "display_github": True,  # Integrate GitHub
-    "github_user": "aubreymoore",  # Username
-    "github_repo": "my-awesome-project",  # Repo name
-    "github_version": "main",  # Version/branch name
-    "conf_py_path": "/docs/source/",  # Path in the checkout to the docs root (adjust as needed)
-}
-
