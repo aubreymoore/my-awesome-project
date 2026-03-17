@@ -327,7 +327,7 @@ cd docs
 # respond as follows
 
 # > Separate source and build directories (y/n) [n]: y
-# > Project name: My Awesome Project
+# > Project name: My Awesome ProjectP
 # > Author name(s): Aubrey Moore
 # > Project release []: 0.0.1
 # > Project language [en]: 
@@ -336,6 +336,15 @@ uv run sphinx-quickstart
 ```
 
 Inside `docs/source/conf.py`, configure the extensions to support Markdown and automatic API generation.
+
+
+```{literalinclude} conf.py
+```
+
+
+asasas
+
+
 
 ```python
 import os
