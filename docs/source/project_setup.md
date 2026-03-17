@@ -70,34 +70,6 @@ Update your `pyproject.toml` to include the documentation tools in an optional d
 ```{literalinclude} ../../pyproject.toml
 ```
 
-Delete below.
-
-
-```toml
-[project]
-name = "my-awesome-project"
-version = "0.1.0"
-description = "A modern Python project with Markdown docs"
-readme = "README.md"
-requires-python = ">=3.13"
-authors = [
-    { name = "Your Name", email = "your.email@example.com" }
-]
-dependencies = []
-
-[project.optional-dependencies]
-docs = [
-    "sphinx>=9.1.0",
-    "myst-parser>=5.0.0",
-    "sphinx-autoapi>=3.8.0",
-    "sphinx-rtd-theme>=2.0.0",
-]
-
-<!-- [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build" -->
-```
-
 Install the documentation dependencies locally:
 
 ```bash
