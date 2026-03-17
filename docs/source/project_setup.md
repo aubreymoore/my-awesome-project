@@ -67,6 +67,12 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 Update your `pyproject.toml` to include the documentation tools in an optional dependency group. This allows Read the Docs to install only what is necessary for the build.
 
+```{literalinclude} ../../pyproject.toml
+```
+
+Delete below.
+
+
 ```toml
 [project]
 name = "my-awesome-project"
