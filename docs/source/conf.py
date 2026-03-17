@@ -3,8 +3,6 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import os
-import sys
 from datetime import date
 
 # -- Project information -----------------------------------------------------
@@ -20,7 +18,7 @@ author = 'Aubrey Moore'
 extensions = [
     'myst_parser',
     'autoapi.extension',
-    'sphinx.ext.napoleon',    # Support for Google/NumPy docstrings
+    'sphinx.ext.napoleon',   # Support for Google/NumPy docstrings
     'sphinx.ext.viewcode',   # Links to source code
 ]
 
